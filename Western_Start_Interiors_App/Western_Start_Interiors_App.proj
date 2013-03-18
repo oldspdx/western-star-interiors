@@ -10,7 +10,10 @@
     <AndroidPermissions>android.permission.CAMERA;android.permission.VIBRATE;android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_LOCATION_EXTRA_COMMANDS;android.permission.READ_PHONE_STATE;android.permission.INTERNET;android.permission.RECEIVE_SMS;android.permission.RECORD_AUDIO;android.permission.MODIFY_AUDIO_SETTINGS;android.permission.READ_CONTACTS;android.permission.WRITE_CONTACTS;android.permission.WRITE_EXTERNAL_STORAGE;android.permission.ACCESS_NETWORK_STATE;android.permission.ACCOUNT_MANAGER;android.permission.GET_ACCOUNTS;android.permission.MANAGE_ACCOUNTS;android.permission.BROADCAST_STICKY</AndroidPermissions>
     <DeviceOrientations>Portrait;Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
-    <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
+    <AndroidHardwareAcceleration>true</AndroidHardwareAcceleration>
+    <BundleVersion>1.0</BundleVersion>
+    <iOSDisplayName />
+    <AndroidVersionCode>1</AndroidVersionCode>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="App_Resources" />
@@ -32,6 +35,25 @@
     <Folder Include="App_Resources\Android\drawable-nodpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="images" />
+    <Folder Include="images\cabtype01" />
+    <Folder Include="images\01_DayCab" />
+    <Folder Include="images\buttonsColor" />
+    <Folder Include="images\gallery" />
+    <Folder Include="images\gallery\dayCab" />
+    <Folder Include="images\gallery\sleeperHigh" />
+    <Folder Include="images\gallery\sleeperLow" />
+    <Folder Include="images\gallery\seats" />
+    <Folder Include="images\documents" />
+    <Folder Include="images\tabstrips" />
+    <Folder Include="jquery-mobile\images" />
+    <Folder Include="kendo" />
+    <Folder Include="jquery-mobile" />
+    <Folder Include="kendo\js" />
+    <Folder Include="kendo\styles" />
+    <Folder Include="ee" />
+    <Folder Include="styles" />
+    <Folder Include="styles\images" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -57,8 +79,301 @@
     <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cab01clr01view01.html" />
+    <Content Include="images\zoom_in.png" />
+    <Content Include="index2.html" />
+    <Content Include="hiRoofBuckskin.html" />
+    <Content Include="hiRoofBase.html" />
+    <Content Include="hiRoofCabMapleLeafRed.html" />
+    <Content Include="hiRoofPacificForestGreen.html" />
+    <Content Include="hiRoofSmokyMountainGray.html" />
+    <Content Include="lowRoofBase.html" />
+    <Content Include="lowRoofPacificForestGreen.html" />
+    <Content Include="lowRoofBuckskin.html" />
+    <Content Include="lowRoofCabMapleLeafRed.html" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_MapleLeafRed_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_MapleLeafRed_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_MapleLeafRed_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_MapleLeafRed__3q_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_PacificForestGreen_3q_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_PacificForestGreen_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_PacificForestGreen_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_PacificForestGreen_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_PrairieBuckskin_3q_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_PrairieBuckskin_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_PrairieBuckskin_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_PrairieBuckskin_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_SmokyMountainGray_3q_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_SmokyMountainGray_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_SmokyMountainGray_Dash_02.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_SmokyMountainGray_Dash_03.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_SmokyMountainGray_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperHigh\Cab_HR_SmokyMountainGray_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_3q_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_3q_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_Dash_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_Dash_03.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_Rear_03.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_Base_Rear_04.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_MapleLeafRed_3q_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_MapleLeafRed_3q_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_MapleLeafRed_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_MapleLeafRed_Dash_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_MapleLeafRed_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_MapleLeafRed_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_MapleLeafRed_Rear_03.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_MapleLeafRed_Rear_04.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PacificForestGreen_3q_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PacificForestGreen_3q_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PacificForestGreen_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PacificForestGreen_Dash_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PacificForestGreen_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PacificForestGreen_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PacificForestGreen_Rear_03.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PacificForestGreen_Rear_04.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PrairieBuckskin_3q_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PrairieBuckskin_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PrairieBuckskin_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_PrairieBuckskin_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_3q_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_3q_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_Dash_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_Dash_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_Rear_01.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_Rear_02.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_Rear_03.jpg" />
+    <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_Rear_04.jpg" />
+    <Content Include="lowRoofSmokyMountainGray.html" />
+    <Content Include="dayCabBase.html" />
+    <Content Include="dayCabMapleLeafRed.html" />
+    <Content Include="dayCabBuckskin.html" />
+    <Content Include="dayCabPacificForestGreen.html" />
+    <Content Include="dayCabSmokyMountainGray.html" />
+    <Content Include="HtmlPage.html" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_3q_01.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_3q_02.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_3q_03.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_3q_04.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Dash_01.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Dash_02.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Dash_03.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Rear_01.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Rear_02.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Rear_03.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Rear_04.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Rear_05.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Rear_06.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Rear_07.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_Base_Rear_08.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_MapleLeafRed_3q_01.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_MapleLeafRed_3q_02.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_MapleLeafRed_3q_03.jpg" />
+    <Content Include="images\01_DayCab\Cab_Day_MapleLeafRed_3q_04.jpg" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\btn_climbin.png" />
+    <Content Include="images\btn_conf01.png" />
+    <Content Include="images\btn_conf01_off.png" />
+    <Content Include="images\btn_conf01_on.png" />
+    <Content Include="images\btn_conf02.png" />
+    <Content Include="images\btn_conf02_off.png" />
+    <Content Include="images\btn_conf02_on.png" />
+    <Content Include="images\btn_conf03.png" />
+    <Content Include="images\btn_conf03_off.png" />
+    <Content Include="images\btn_conf03_on.png" />
+    <Content Include="images\btn_view1.png" />
+    <Content Include="images\btn_view2.png" />
+    <Content Include="images\btn_view3.png" />
+    <Content Include="images\btn_view4.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_Base_on.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_Buckskin_off.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_Buckskin_on.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_MapleLeafRed_off.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_MapleLeafRed_on.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_PacificForestGreen_off.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_PacificForestGreen_on.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_SmokeyMountainGray_off.png" />
+    <Content Include="images\buttonsColor\btn_dayCab_SmokeyMountainGray_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_Base_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_Buckskin_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_Buckskin_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_MapleLeafRed_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_MapleLeafRed_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_PacificForestGreen_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_PacificForestGreen_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_SmokyMountainGray_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperHigh_SmokyMountainGray_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_Base_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_Base_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_Buckskin_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_Buckskin_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_MapleLeafRead_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_MapleLeafRead_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_PacificForestGreen_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_PacificForestGreen_on.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_SmokyMountainGray_off.png" />
+    <Content Include="images\buttonsColor\btn_sleeperLow_SmokyMountainGray_on.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr01_01.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr01_02.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr01_03.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr01_04.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr01_off.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr01_on.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr02_off.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr02_on.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr03_off.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr03_on.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr04_off.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr04_on.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr05_off.png" />
+    <Content Include="images\cabtype01\btn_conf01_clr05_on.png" />
+    <Content Include="images\cab_icon.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\documents\Seats_Gray.pdf" />
+    <Content Include="images\documents\Seats_MapleLeafRed.pdf" />
+    <Content Include="images\documents\Seats_PacificForestGreen.pdf" />
+    <Content Include="images\documents\Seats_PrairieBuckskin.pdf" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_3q_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_3q_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_3q_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_3q_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Dash_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Dash_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Dash_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Rear_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Rear_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Rear_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Rear_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Rear_05.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Rear_06.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Rear_07.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_Base_Rear_08.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_3q_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_3q_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_3q_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_3q_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Dash_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Dash_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Rear_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Rear_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Rear_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Rear_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Rear_05.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Rear_06.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Rear_07.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_MapleLeafRed_Rear_08.jpg" />
+    <Content Include="images\gallery\dayCab\Day_PacForestGreen_3q_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_3q_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_3q_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_3q_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Dash_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Dash_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Rear_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Rear_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Rear_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Rear_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Rear_05.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Rear_06.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Rear_07.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PacificForestGreen_Rear_08.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PrairieBuckskin_3q_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PrairieBuckskin_3q_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PrairieBuckskin_Dash_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PrairieBuckskin_Rear_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PrairieBuckskin_Rear_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PrairieBuckskin_Rear_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_PrairieBuckskin_Rear_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_3q_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_3q_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_3q_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_3q_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Dash_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Dash_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Dash_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Rear_01.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Rear_02.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Rear_03.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Rear_04.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Rear_05.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Rear_06.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Rear_07.jpg" />
+    <Content Include="images\gallery\dayCab\Cab_Day_SmokyMountainGray_Rear_08.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Cordura_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_2tone_MapleLeafRed.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_2tone_PacificForestGreen.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_2tone_PrairieBuckskin.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_2tone_SmokyMountainGray.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_Solid_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_Solid_Gray.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_Solid_MapleLeafRed.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_Solid_PacificForestGreen_.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Leather_Solid_PrairieBuckskin.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Mordura_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Mordura_Gray.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Mordura_MapleLeafRed.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Mordura_PrairieBuckskin.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Vinyl_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_01_High_Vinyl_Gray.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Cordura_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Leather_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Leather_MapleLeafRed.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Leather_PacificForestGreen.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Leather_PrairieBuckskin.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Leather_SmokyMountainGray.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Mordura_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Mordura_Gray.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Mordura_MapleLeafRed.jpg" />
+    <Content Include="images\gallery\seats\Seat_02_Mid_Mordura_PrairieBuckskin.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Cordura_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Leather_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Leather_MapleLeafRed.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Leather_PacificForestGreen.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Leather_PrairieBuckskin.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Leather_SmokyMountainGray.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Mordura_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Mordura_Gray.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Mordura_MapleLeafRed.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Mordura_PrairieBuckskin.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Vinyl_Black.jpg" />
+    <Content Include="images\gallery\seats\Seat_03_Bench_Vinyl_Gray.jpg" />
+    <Content Include="images\tabstrips\view_btn_cab_day_3q_base.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_3q_MapleLeafRed.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_3q_PacificForestGreen.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_3q_PrairieBuckskin.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_3q_SmokyMountainGray.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_dash_base.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_dash_MapleLeafRed.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_dash_PacificForestGreen.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_dash_PrairieBuckskin.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_dash_SmokyMountainGray.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_rear_base.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_rear_MapleLeafRed.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_rear_PacificForestGreen.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_rear_PrairieBuckskin.png" />
+    <Content Include="images\tabstrips\view_btn_cab_day_rear_SmokyMountainGray.png" />
+    <Content Include="images\tabstrips\view_btn_seat_MapleLeafRed.png" />
+    <Content Include="images\tabstrips\view_btn_seat_PacificForestGreen.png" />
+    <Content Include="images\tabstrips\view_btn_seat_PrairieBuckskin.png" />
+    <Content Include="images\tabstrips\view_btn_seat_SmokyMountainGray.png" />
+    <Content Include="images\FS_Icon.jpg" />
+    <Content Include="images\fullscreen.png" />
+    <Content Include="images\homepageimg.jpg" />
+    <Content Include="images\Serious_trucks_group.png" />
+    <Content Include="images\tabimg01.png" />
+    <Content Include="images\wslogo.png" />
     <Content Include="index.html" />
     <Content Include="css\index.css" />
+    <Content Include="jquery-mobile\images\ajax-loader.gif" />
+    <Content Include="jquery-mobile\images\icons-18-black.png" />
+    <Content Include="jquery-mobile\images\icons-18-white.png" />
+    <Content Include="jquery-mobile\images\icons-36-black.png" />
+    <Content Include="jquery-mobile\images\icons-36-white.png" />
+    <Content Include="jquery-mobile\jquery-1.8.2.min.js" />
+    <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.css" />
+    <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.js" />
+    <Content Include="jquery-mobile\stocktheme.css" />
     <Content Include="js\index.js" />
     <Content Include="img\logo.png" />
     <Content Include="img\cordova.png" />
@@ -70,6 +385,40 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="kendo\js\jquery.min.js" />
+    <Content Include="kendo\js\kendo.mobile.min.js" />
+    <Content Include="kendo\styles\kendo.mobile.all.min.css" />
+    <Content Include="old.html" />
+    <Content Include="styles\images\icons-18.png" />
+    <Content Include="styles\images\icons-36.png" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\main02.css" />
+    <Content Include="styles\phone-1280.css" />
+    <Content Include="styles\phone-480.css" />
+    <Content Include="styles\phone-800.css" />
+    <Content Include="styles\tablet-1024-ldpi.css" />
+    <Content Include="tester.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <CordovaPlugin Include="com.phonegap.plugins.childbrowser">
+      <Version>4.0.0</Version>
+      <Name>Child Browser</Name>
+    </CordovaPlugin>
+    <CordovaPlugin Include="com.phonegap.plugins.sqlite">
+      <Version>0.0.1</Version>
+      <Name>SQLite</Name>
+    </CordovaPlugin>
+  </ItemGroup>
+  <ItemGroup>
+    <CordovaPluginContent Include="com.phonegap.plugins.childbrowser\childbrowser.js" />
+    <CordovaPluginContent Include="com.phonegap.plugins.sqlite\Android\SQLitePlugin.js">
+      <Platform>Android</Platform>
+      <TargetName>SQLitePlugin.js</TargetName>
+    </CordovaPluginContent>
+    <CordovaPluginContent Include="com.phonegap.plugins.sqlite\iOS\SQLitePlugin.js">
+      <Platform>iOS</Platform>
+      <TargetName>SQLitePlugin.js</TargetName>
+    </CordovaPluginContent>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
