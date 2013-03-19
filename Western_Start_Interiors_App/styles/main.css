@@ -6,6 +6,12 @@ body
 	padding: 0;
 }
 
+/* Reset Classes */
+
+.km-content p{
+    color:#FFF;
+}
+
 h1
 {
 	margin: 0;
@@ -87,6 +93,14 @@ h2
 	font-size: 2.6em;
 	font-weight: bold;
 }
+
+.km-button    {
+   margin-top:7px
+}
+
+/*.homepageimg    {
+   background: url(../images/homepageimg.jpg); 
+} */
 
 /* Page Backgound */
 
@@ -218,7 +232,7 @@ h3
 
 .km-ios .km-content .km-scroll-wrapper
 {
-	background: #FFF; 
+
 	text-align: center;
 	width: 100%;
 	color: #000;
@@ -244,7 +258,7 @@ h3
 
 .km-ios .km-content .scroller-container
 {
-	height: 500px !important;
+	height: 320px !important;
 	margin-top: 0px !important;
 	width: 100% !important;
 	margin: 0;
@@ -276,7 +290,7 @@ h3
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	border: 3px solid green;
+
 
 }
 
@@ -286,13 +300,29 @@ h3
 	margin: 0;
 	padding: 0;
 	height: 290px; 
-
 	display: inline-block;
-	-webkit-background-size: auto 100%;
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: center center;
 	-webkit-transform: translatez(0);
+    margin:0;
+}
+
+.galleryimg    {
+    padding:10px 0 0;
+    height:60%;
+    margin:0
+
+}
+
+.galleryimg  img  {
+    
+}
+
+.gallerytext    {
+   margin:0 0 -10px 0
+}
+
+.zoomimg   {
+    margin:0 20px 0 0;
+    float:right;
 }
 
 .km-tablet .km-ios .km-content .overview-gallery .photo
@@ -327,7 +357,7 @@ h3
 	font-size: 20px;
 	color: #EFEFEF;
 	text-align: left;
-      padding-left:5px;
+    padding:5px 0 0 15px;
 }
 
 .photo h3
@@ -337,7 +367,8 @@ h3
 	font-size: 30px;
 	color: #EFEFEF;
 	text-align: left;
-    padding-left:5px;
+    padding-left:15px;
+    font-weight:bold;
 }
 
 .km-tablet .km-ios .km-content .overview-gallery .photo H3
@@ -444,6 +475,7 @@ h3
 	text-decoration: none;
 	border: 1px solid #394D68;
 	border-color: #2F3740 #394D68 #375073;
+    margin-top:7px
 } 
 
 .km-tablet .km-ios .km-navbar .km-button, .km-tablet .km-ios :not(.km-tabstrip):not(.km-buttongroup) > .km-button
