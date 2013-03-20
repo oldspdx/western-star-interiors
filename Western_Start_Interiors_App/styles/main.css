@@ -17,7 +17,7 @@ body
     -webkit-box-direction: normal;
 }
 
-.km-tabstrip .km-text    {
+.km-tablet .km-ios .km-tabstrip .km-text    {
     display:block
 }
 
