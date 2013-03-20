@@ -391,6 +391,7 @@
     <Content Include="kendo\js\kendo.mobile.min.js" />
     <Content Include="kendo\styles\kendo.mobile.all.min.css" />
     <Content Include="old.html" />
+    <Content Include="styles\Copy of main.css" />
     <Content Include="styles\images\icons-18.png" />
     <Content Include="styles\images\icons-36.png" />
     <Content Include="styles\main.css" />

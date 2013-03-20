@@ -1,0 +1,995 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin: 0;
+	padding: 0;
+}
+
+/* Reset Classes */
+
+.km-content p{
+    color:#FFF;
+}
+
+h1
+{
+	margin: 0;
+	padding: 20px 0 0 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.km-tablet .km-ios .km-content h1
+{
+	margin: 0;
+	padding: 20px 0 0 20px;
+	font-size: 2.7em;
+	font-weight: bold;
+}
+
+.km-tablet .km-android .km-content  h1
+{
+	margin: 0;
+	padding: 20px 0 0 20px;
+	font-size: 2.6em;
+	font-weight: bold;
+}
+
+.km-tablet .km-ios .km-content p
+{
+	font-size: 1.5em;
+}
+
+.km-tablet .km-android .km-content  p
+{
+	font-size: 1em;
+}
+
+h2
+{
+	margin: 0;
+	padding: 10px 0 0 0;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.km-tablet .km-ios .km-content h2
+{
+	margin: 0;
+	padding: 10px 0 0 20px;
+	font-size: 2.4em;
+	font-weight: bold;
+}
+
+.km-tablet .km-android .km-content  h2
+{
+	margin: 0;
+	padding: 10px 0 0 20px;
+	font-size: 2.3em;
+	font-weight: bold;
+}
+
+
+.km-button    {
+   margin-top:7px
+}
+
+/*.homepageimg    {
+   background: url(../images/homepageimg.jpg); 
+} */
+
+/* Page Backgound */
+
+.km-ios .km-content
+{
+	background: url(../images/background.jpg); 
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.km-android, .km-android .km-content
+{
+	background: url(../images/background.jpg); 
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.km-tablet .km-ios .km-content
+{
+	background: url(../images/background.jpg); 
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.km-ios .km-view
+{
+	overflow: scroll;
+}
+
+img
+{
+	max-width: 100%
+}
+
+.floatleft
+{
+	float: left;
+}
+
+.header
+{
+	float: left;
+	padding: 30px 5% 15px ;
+	width: 90%
+}
+
+.headerimg
+{
+	float: left;
+	width: 24%;
+	padding-top: 0
+}
+
+.headertext
+{
+	float: left;
+	width: 72%;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+.homepageimg
+{
+	width: 100%;
+	float: left;
+}
+
+.homepagecallout
+{
+	float: left;
+	padding: 0 8% 0 30%;
+	font-size: 1em;
+}
+
+.homepagecallout p{
+    margin:15px 0 10px 0;
+    
+}
+
+.starimg
+{
+	padding: 0 0 0 30px;
+	width: 30%
+}
+
+.starimg img
+{
+	width: 70%;
+    margin-top:-10px
+}
+
+h3
+{
+	padding: 10px 0;
+	margin: 0;
+}
+
+/* Scroll */
+
+
+.km-scrollview
+{
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0; 
+}
+
+.km-ios .km-scrollview
+{
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 350px
+}
+
+.km-android .km-scrollview
+{
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 350px
+}
+
+.km-tablet .km-android .km-scrollview
+{
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 700px
+}
+
+.km-ios .km-content .km-scroll-wrapper
+{
+
+	text-align: center;
+	width: 100%;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.km-tablet .km-android .km-content .km-scroll-wrapper
+{
+
+	text-align: center;
+	width: 100%;
+	color: #000
+}
+
+.km-tablet .km-ios .km-content  .km-scroll-wrapper
+{
+
+	text-align: center;
+	width: 100%;
+	color: #000
+}
+
+.km-ios .km-content .scroller-container
+{
+	height: 320px !important;
+	margin-top: 0px !important;
+	width: 100% !important;
+	margin: 0;
+	padding: 0;
+}
+
+.km-tablet .km-android .scroller-container
+{
+	height: 1000px !important;
+	margin-top: 0px !important;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.km-tablet .km-ios .km-content  .scroller-container
+{
+	height: 1000px !important;
+	margin-top: 0px !important;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.scroller-container
+{
+	height: 500px !important;
+	margin-top: 0px !important;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+.overview-gallery .photo
+{
+	width: 99%;
+	margin: 0;
+	padding: 0;
+	height: 290px; 
+	display: inline-block;
+	-webkit-transform: translatez(0);
+    margin:0;
+}
+
+.galleryimg    {
+    padding:10px 0 0;
+    height:60%;
+    margin:0
+
+}
+
+.galleryimg  img  {
+    
+}
+
+.gallerytext    {
+   margin:0 0 -10px 0
+}
+
+.zoomimg   {
+    margin:0 20px 0 0;
+    float:right;
+}
+
+.km-tablet .km-ios .km-content .overview-gallery .photo
+{
+	width: 99%;
+	margin: 0;
+	height: 750px;
+	display: inline-block;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transform: translatez(0);
+    color: #EFEFEF;
+}
+
+.km-android .overview-gallery .photo
+{
+
+	height: 285px;
+}
+
+.km-tablet .km-android .overview-gallery .photo
+{
+	height: 575px;
+}
+
+.photo h4
+{
+	padding: 0px 0;
+	margin: 0;
+	font-size: 20px;
+	color: #EFEFEF;
+	text-align: left;
+    padding:5px 0 0 15px;
+}
+
+.photo h3
+{
+	padding: 0px 0;
+	margin: 0;
+	font-size: 30px;
+	color: #EFEFEF;
+	text-align: left;
+    padding-left:15px;
+    font-weight:bold;
+}
+
+.km-tablet .km-ios .km-content .overview-gallery .photo H3
+{
+    font-size: 40px;
+}
+
+.km-tablet .km-ios .km-content .overview-gallery .photo H4
+{
+    font-size: 40px;
+}
+
+#scrollview-container
+{
+	margin: 0;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+.km-android .km-group-title
+{ 
+	display: none;
+}
+
+.km-android .km-listview
+{
+	margin: 0;
+}
+
+.km-listview-wrapper    {
+    width:100%
+}
+
+/* slides closeup */
+
+.km-popup-overlay { }
+
+.km-popup-arrow::after, .km-down .km-popup-arrow::before
+{
+	display: none;
+	content: " a0";
+	width: 0;
+	height: 0;
+}
+
+.zoom
+{
+	text-align: center;
+	position: absolute;
+	white-space: nowrap;
+	padding: 0;
+	cursor: pointer;
+}
+
+#zoomable-explanation
+{
+	position: absolute;
+	width: 200px;
+	top: 50px;
+	left: 50px;
+	padding: 20px;
+	background: black;
+	color: white;
+	border: 2px solid white;
+	-webkit-border-radius: 10px;
+	-webkit-opacity: 0.5;
+}
+
+/* Button  */
+
+
+
+
+.km-ios6 .km-navbar .km-button, .km-ios6 :not(.km-tabstrip):not(.km-buttongroup) > .km-button
+{
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: none; 
+}
+
+.km-listinset, .km-listgroupinset
+{
+	margin: 0;
+} 
+
+.km-ios .km-view .km-navbar .km-button
+{
+	background-color: #44648F;
+	background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(255, 255, 255, 0.5)), color-stop(1, rgba(255, 255, 255, 0)));
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	text-align: center;
+	border-width: 0;
+	border-bottom: 1px solid; 
+	padding: .4em .8em;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	color: white;
+	overflow: visible;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 0 -1px;
+	text-decoration: none;
+	border: 1px solid #394D68;
+	border-color: #2F3740 #394D68 #375073;
+    margin:7px 0;
+} 
+
+.km-tablet .km-ios .km-navbar .km-button, .km-tablet .km-ios :not(.km-tabstrip):not(.km-buttongroup) > .km-button
+{
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: none; 
+	width: 95%;
+    margin-top:7px
+}
+
+.km-tablet .km-ios .km-listinset, .km-listgroupinset
+{
+	margin: 0;
+} 
+
+.km-tablet .km-ios .km-view .km-navbar .km-button
+{
+	background-color: #44648F;
+	background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(255, 255, 255, 0.5)), color-stop(1, rgba(255, 255, 255, 0)));
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	text-align: center;
+	border-width: 0;
+	border-bottom: 1px solid; 
+	padding: .4em .8em;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	color: white;
+	overflow: visible;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 0 -1px;
+	text-decoration: none;
+	border: 1px solid #394D68;
+	border-color: #2F3740 #394D68 #375073;
+    margin-top:7px
+} 
+
+.km-android .km-button
+{
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: none; 
+}
+
+.fake-button
+{
+	background-color: #44648F;
+	background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(255, 255, 255, 0.5)), color-stop(1, rgba(255, 255, 255, 0)));
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	text-align: center;
+	border-width: 0;
+	border-bottom: 1px solid; 
+	padding: .4em .8em;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	color: white;
+	overflow: visible;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 0 -1px;
+	text-decoration: none;
+	border: 1px solid #394D68;
+	border-color: #2F3740 #394D68 #375073;
+} 
+
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+    
+    .homepageimg    {
+        background:url(../images/homepageimg.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:200px;
+    }
+    
+    .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+    .headertext h1
+    {
+    	margin: 0;
+    	padding: 0 0 0 0;
+    	font-size: 1.5em;
+    	font-weight: bold;
+    }
+    
+    .headerimg
+    {
+    	float: left;
+    	width: 24%;
+    	padding-top: 0
+    }
+    
+    .headertext
+    {
+    	float: left;
+    	width: 70%;
+    	padding: 0 0 0 15px;
+    	margin: 0;
+    }
+    
+    .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .homepagecallout
+    {
+    	float: left;
+    	padding: 0 7% 0 30%;
+    	font-size: 1em;
+    }
+    
+    .homepagecallout p{
+        margin:15px 0 10px 0;
+        
+    }
+    
+    .starimg
+    {
+    	padding: 0 0 0 10px;
+    	width: 30%
+    }
+    
+    .starimg img
+    {
+    	width: 70%;
+        margin-top:-20px
+    }
+    
+    /* IPAD */
+    
+    .km-tablet .km-ios .homepageimg    {
+        background:url(../images/homepageimg.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:500px;
+    }
+    
+    .km-tablet .km-ios .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+     .km-tablet .km-ios .km-content .headertext h1
+    {
+    	margin: 0;
+    	padding: 0 0 0 0;
+    	font-size: 2.7em;
+    	font-weight: bold;
+    }
+    
+    .km-tablet .km-ios .headerimg
+    {
+    	float: left;
+    	width: 24%;
+    	padding-top: 0
+    }
+    
+    .km-tablet .km-ios .headertext
+    {
+    	float: left;
+    	width: 70%;
+    	padding: 0 0 0 15px;
+    	margin: 0;
+    }
+    
+    .km-tablet .km-ios .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .km-tablet .km-ios .homepagecallout
+    {
+    	float: left;
+    	padding: 0 7% 0 33%;
+    	font-size: 1em;
+    }
+    
+    .km-tablet .km-ios .homepagecallout p{
+        margin:35px 0 10px 0;
+        font-size:30px
+        
+    }
+    
+    .km-tablet .km-ios .climbin{
+       width:59%;
+       float:right;
+       margin-top:10px
+    }
+    
+    .km-tablet .km-ios .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 23%
+    }
+    
+    .km-tablet .km-ios .starimg img
+    {
+    	width: 65%;
+        margin-top:-10px
+    }
+        
+    /*Android Tablet */
+    
+    .km-tablet .km-android .homepageimg    {
+        background:url(../images/homepageimg.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:453px;
+    }
+    
+    .km-tablet .km-android .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+     .km-tablet .km-android .km-content .headertext h1
+    {
+    	margin: 0;
+    	padding: 0 0 0 0;
+    	font-size: 2.7em;
+    	font-weight: bold;
+    }
+    
+    .km-tablet .km-android .headerimg
+    {
+    	float: left;
+    	width: 24%;
+    	padding-top: 0
+    }
+    
+    .km-tablet .km-android .headertext
+    {
+    	float: left;
+    	width: 70%;
+    	padding: 0 0 0 15px;
+    	margin: 0;
+    }
+    
+    .km-tablet .km-android .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .km-tablet .km-android .homepagecallout
+    {
+    	float: left;
+    	padding: 0 7% 0 33%;
+    	font-size: 1em;
+    }
+    
+    .km-tablet .km-android .homepagecallout p{
+        margin:35px 0 10px 0;
+        font-size:30px
+        
+    }
+    
+    .km-tablet .km-android .climbin{
+       width:59%;
+       float:right;
+       margin-top:10px
+    }
+    
+    .km-tablet .km-android .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 23%
+    }
+    
+    .km-tablet .km-android .starimg img
+    {
+    	width: 65%;
+        margin-top:-10px
+    }
+    
+}
+
+/* Landscape */
+
+@media screen and (orientation:landscape) {
+    
+    .homepageimg    {
+        background:url(../images/homepageimg_landscape.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:250px;
+    }
+    
+    .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+    .header h1    {
+       font-size:26px;
+        margin:0;
+        padding:0
+    }
+    
+    .headerimg
+    {
+    	float: left;
+    	width: 24%;
+    	padding-top: 0
+    }
+    
+    .headertext
+    {
+    	float: left;
+    	width: 60%;
+    	padding: 0 0 0 40px;
+    	margin: 0;
+    }
+    
+    .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .homepagecallout
+    {
+    	float: left;
+    	padding: 0 8% 0 35%;
+    	font-size: 1em;
+    }
+    
+    .homepagecallout p{
+        margin:15px 0 10px 0;
+        
+    }
+    
+    .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 30%;
+       margin-top:-100px
+    }
+    
+    .starimg img
+    {
+    	width: 65%;
+    }
+    
+    /* IPAD */
+    
+    .km-tablet .km-ios .homepageimg    {
+        background:url(../images/homepageimg_landscape.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:453px;
+    }
+    
+    .km-tablet .km-ios .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+    .km-tablet .km-ios .header h1    {
+       font-size:40px 
+    }
+    
+    .km-tablet .km-ios .headerimg
+    {
+    	float: left;
+    	width: 18%;
+    	padding-top: 0
+    }
+    
+    .km-tablet .km-ios .headertext
+    {
+    	float: left;
+    	width: 80%;
+    	padding: 0 0 0 20px;
+    	margin: 0;
+    }
+    
+    .km-tablet .km-ios .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .km-tablet .km-ios .homepagecallout
+    {
+    	float: left;
+    	padding: 40px 0 0 18%;
+    	font-size: 1em;
+    }
+    
+    .km-tablet .km-ios .homepagecallout p{
+        margin:15px 0 10px 0;
+        float:left;
+        width:50%
+        
+    }
+    
+    .km-tablet .km-ios .climbin{
+       width:85%;
+       float:right;
+       margin-top:10px
+    }
+    
+    .km-tablet .km-ios .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 30%;
+        margin-top:-80px
+    }
+    
+    .km-tablet .km-ios .starimg img
+    {
+    	width: 35%;
+    }
+    
+    /*Android Tablet */
+    
+    .km-tablet .km-android .homepageimg    {
+        background:url(../images/homepageimg_landscape.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:453px;
+    }
+    
+    .km-tablet .km-android .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+    .km-tablet .km-android .header h1    {
+       font-size:40px 
+    }
+    
+    .km-tablet .km-android .headerimg
+    {
+    	float: left;
+    	width: 18%;
+    	padding-top: 0
+    }
+    
+    .km-tablet .km-android .headertext
+    {
+    	float: left;
+    	width: 80%;
+    	padding: 0 0 0 20px;
+    	margin: 0;
+    }
+    
+    .km-tablet .km-android .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .km-tablet .km-android .homepagecallout
+    {
+    	float: left;
+    	padding: 40px 0 0 18%;
+    	font-size: 1em;
+        width:100%
+    }
+    
+    .km-tablet .km-android .homepagecallout p{
+        margin:15px 30px 10px 0;
+        float:left;
+        width:45%;
+        font-size:22px;
+        
+    }
+    
+    .km-tablet .km-ios .climbin{
+       width:85%;
+       float:right;
+       margin-top:10px
+    }
+    
+    .km-tablet .km-android .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 30%;
+        margin-top:-80px
+    }
+    
+    .km-tablet .km-android .starimg img
+    {
+    	width: 35%;
+    }
+}
+
+
+
+
+
+.km-tablet .km-android .km-content  .headertext h1
+{
+	margin: 0;
+	padding: 20px 0 0 10px;
+	font-size: 2.6em;
+	font-weight: bold;
+}
