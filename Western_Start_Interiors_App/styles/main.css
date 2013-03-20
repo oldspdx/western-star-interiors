@@ -17,6 +17,10 @@ body
     -webkit-box-direction: normal;
 }
 
+.km-tabstrip .km-text    {
+    display:block
+}
+
 .largebtn    {
     width:97%;
     padding:0 0 0 2%
@@ -84,10 +88,6 @@ h2
 .km-button    {
    margin-top:7px
 }
-
-/*.homepageimg    {
-   background: url(../images/homepageimg.jpg); 
-} */
 
 /* Page Backgound */
 
