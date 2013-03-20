@@ -80,6 +80,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cab01clr01view01.html" />
+    <Content Include="images\buttonsColor\btn_dayCab_Base_off.png" />
+    <Content Include="images\homepageimg_landscape.jpg" />
     <Content Include="images\zoom_in.png" />
     <Content Include="index2.html" />
     <Content Include="hiRoofBuckskin.html" />

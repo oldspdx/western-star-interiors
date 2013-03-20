@@ -70,29 +70,6 @@ h2
 	font-weight: bold;
 }
 
-.headertext h1
-{
-	margin: 0;
-	padding: 0 0 0 0;
-	font-size: 1.5em;
-	font-weight: bold;
-}
-
-.km-tablet .km-ios .km-content .headertext h1
-{
-	margin: 0;
-	padding: 20px 0 0 0;
-	font-size: 2.7em;
-	font-weight: bold;
-}
-
-.km-tablet .km-android .km-content  .headertext h1
-{
-	margin: 0;
-	padding: 20px 0 0 10px;
-	font-size: 2.6em;
-	font-weight: bold;
-}
 
 .km-button    {
    margin-top:7px
@@ -143,7 +120,7 @@ img
 .header
 {
 	float: left;
-	padding: 30px 30px 30px 30px;
+	padding: 30px 5% 15px ;
 	width: 90%
 }
 
@@ -171,19 +148,25 @@ img
 .homepagecallout
 {
 	float: left;
-	padding: 0 15% 0 25%;
+	padding: 0 8% 0 30%;
 	font-size: 1em;
+}
+
+.homepagecallout p{
+    margin:15px 0 10px 0;
+    
 }
 
 .starimg
 {
-	padding: 0 0 20px 30px;
+	padding: 0 0 0 30px;
 	width: 30%
 }
 
 .starimg img
 {
-	width: 70%
+	width: 70%;
+    margin-top:-10px
 }
 
 h3
@@ -242,7 +225,7 @@ h3
 
 .km-tablet .km-android .km-content .km-scroll-wrapper
 {
-	background: #FFF;
+
 	text-align: center;
 	width: 100%;
 	color: #000
@@ -250,7 +233,7 @@ h3
 
 .km-tablet .km-ios .km-content  .km-scroll-wrapper
 {
-	background: #FFF;
+
 	text-align: center;
 	width: 100%;
 	color: #000
@@ -399,6 +382,10 @@ h3
 	margin: 0;
 }
 
+.km-listview-wrapper    {
+    width:100%
+}
+
 /* slides closeup */
 
 .km-popup-overlay { }
@@ -475,7 +462,7 @@ h3
 	text-decoration: none;
 	border: 1px solid #394D68;
 	border-color: #2F3740 #394D68 #375073;
-    margin-top:7px
+    margin:7px 0;
 } 
 
 .km-tablet .km-ios .km-navbar .km-button, .km-tablet .km-ios :not(.km-tabstrip):not(.km-buttongroup) > .km-button
@@ -485,7 +472,8 @@ h3
 	padding: 0;
 	margin: 0;
 	box-shadow: none; 
-	width: 95%    
+	width: 95%;
+    margin-top:7px
 }
 
 .km-tablet .km-ios .km-listinset, .km-listgroupinset
@@ -515,6 +503,7 @@ h3
 	text-decoration: none;
 	border: 1px solid #394D68;
 	border-color: #2F3740 #394D68 #375073;
+    margin-top:7px
 } 
 
 .km-android .km-button
@@ -549,3 +538,458 @@ h3
 	border: 1px solid #394D68;
 	border-color: #2F3740 #394D68 #375073;
 } 
+
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+    
+    .homepageimg    {
+        background:url(../images/homepageimg.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:200px;
+    }
+    
+    .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+    .headertext h1
+    {
+    	margin: 0;
+    	padding: 0 0 0 0;
+    	font-size: 1.5em;
+    	font-weight: bold;
+    }
+    
+    .headerimg
+    {
+    	float: left;
+    	width: 24%;
+    	padding-top: 0
+    }
+    
+    .headertext
+    {
+    	float: left;
+    	width: 70%;
+    	padding: 0 0 0 15px;
+    	margin: 0;
+    }
+    
+    .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .homepagecallout
+    {
+    	float: left;
+    	padding: 0 7% 0 30%;
+    	font-size: 1em;
+    }
+    
+    .homepagecallout p{
+        margin:15px 0 10px 0;
+        
+    }
+    
+    .starimg
+    {
+    	padding: 0 0 0 10px;
+    	width: 30%
+    }
+    
+    .starimg img
+    {
+    	width: 70%;
+        margin-top:-20px
+    }
+    
+    /* IPAD */
+    
+    .km-tablet .km-ios .homepageimg    {
+        background:url(../images/homepageimg.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:500px;
+    }
+    
+    .km-tablet .km-ios .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+     .km-tablet .km-ios .km-content .headertext h1
+    {
+    	margin: 0;
+    	padding: 0 0 0 0;
+    	font-size: 2.7em;
+    	font-weight: bold;
+    }
+    
+    .km-tablet .km-ios .headerimg
+    {
+    	float: left;
+    	width: 24%;
+    	padding-top: 0
+    }
+    
+    .km-tablet .km-ios .headertext
+    {
+    	float: left;
+    	width: 70%;
+    	padding: 0 0 0 15px;
+    	margin: 0;
+    }
+    
+    .km-tablet .km-ios .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .km-tablet .km-ios .homepagecallout
+    {
+    	float: left;
+    	padding: 0 7% 0 33%;
+    	font-size: 1em;
+    }
+    
+    .km-tablet .km-ios .homepagecallout p{
+        margin:35px 0 10px 0;
+        font-size:30px
+        
+    }
+    
+    .km-tablet .km-ios .climbin{
+       width:59%;
+       float:right;
+       margin-top:10px
+    }
+    
+    .km-tablet .km-ios .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 23%
+    }
+    
+    .km-tablet .km-ios .starimg img
+    {
+    	width: 65%;
+        margin-top:-10px
+    }
+        
+    /*Android Tablet */
+    
+    .km-tablet .km-android .homepageimg    {
+        background:url(../images/homepageimg.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:453px;
+    }
+    
+    .km-tablet .km-android .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+     .km-tablet .km-android .km-content .headertext h1
+    {
+    	margin: 0;
+    	padding: 0 0 0 0;
+    	font-size: 2.7em;
+    	font-weight: bold;
+    }
+    
+    .km-tablet .km-android .headerimg
+    {
+    	float: left;
+    	width: 24%;
+    	padding-top: 0
+    }
+    
+    .km-tablet .km-android .headertext
+    {
+    	float: left;
+    	width: 70%;
+    	padding: 0 0 0 15px;
+    	margin: 0;
+    }
+    
+    .km-tablet .km-android .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .km-tablet .km-android .homepagecallout
+    {
+    	float: left;
+    	padding: 0 7% 0 33%;
+    	font-size: 1em;
+    }
+    
+    .km-tablet .km-android .homepagecallout p{
+        margin:35px 0 10px 0;
+        font-size:30px
+        
+    }
+    
+    .km-tablet .km-android .climbin{
+       width:59%;
+       float:right;
+       margin-top:10px
+    }
+    
+    .km-tablet .km-android .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 23%
+    }
+    
+    .km-tablet .km-android .starimg img
+    {
+    	width: 65%;
+        margin-top:-10px
+    }
+    
+}
+
+/* Landscape */
+
+@media screen and (orientation:landscape) {
+    
+    .homepageimg    {
+        background:url(../images/homepageimg_landscape.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:250px;
+    }
+    
+    .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+    .header h1    {
+       font-size:26px;
+        margin:0;
+        padding:0
+    }
+    
+    .headerimg
+    {
+    	float: left;
+    	width: 24%;
+    	padding-top: 0
+    }
+    
+    .headertext
+    {
+    	float: left;
+    	width: 60%;
+    	padding: 0 0 0 40px;
+    	margin: 0;
+    }
+    
+    .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .homepagecallout
+    {
+    	float: left;
+    	padding: 0 8% 0 35%;
+    	font-size: 1em;
+    }
+    
+    .homepagecallout p{
+        margin:15px 0 10px 0;
+        
+    }
+    
+    .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 30%;
+       margin-top:-100px
+    }
+    
+    .starimg img
+    {
+    	width: 65%;
+    }
+    
+    /* IPAD */
+    
+    .km-tablet .km-ios .homepageimg    {
+        background:url(../images/homepageimg_landscape.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:453px;
+    }
+    
+    .km-tablet .km-ios .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+    .km-tablet .km-ios .header h1    {
+       font-size:40px 
+    }
+    
+    .km-tablet .km-ios .headerimg
+    {
+    	float: left;
+    	width: 18%;
+    	padding-top: 0
+    }
+    
+    .km-tablet .km-ios .headertext
+    {
+    	float: left;
+    	width: 80%;
+    	padding: 0 0 0 20px;
+    	margin: 0;
+    }
+    
+    .km-tablet .km-ios .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .km-tablet .km-ios .homepagecallout
+    {
+    	float: left;
+    	padding: 40px 0 0 18%;
+    	font-size: 1em;
+    }
+    
+    .km-tablet .km-ios .homepagecallout p{
+        margin:15px 0 10px 0;
+        float:left;
+        width:50%
+        
+    }
+    
+    .km-tablet .km-ios .climbin{
+       width:85%;
+       float:right;
+       margin-top:10px
+    }
+    
+    .km-tablet .km-ios .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 30%;
+        margin-top:-80px
+    }
+    
+    .km-tablet .km-ios .starimg img
+    {
+    	width: 35%;
+    }
+    
+    /*Android Tablet */
+    
+    .km-tablet .km-android .homepageimg    {
+        background:url(../images/homepageimg_landscape.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        height:453px;
+    }
+    
+    .km-tablet .km-android .header
+    {
+    	float: left;
+    	padding: 30px 5% 15px ;
+    	width: 90%
+    }
+    
+    .km-tablet .km-android .header h1    {
+       font-size:40px 
+    }
+    
+    .km-tablet .km-android .headerimg
+    {
+    	float: left;
+    	width: 18%;
+    	padding-top: 0
+    }
+    
+    .km-tablet .km-android .headertext
+    {
+    	float: left;
+    	width: 80%;
+    	padding: 0 0 0 20px;
+    	margin: 0;
+    }
+    
+    .km-tablet .km-android .homepageimg
+    {
+    	width: 100%;
+    	float: left;
+    }
+    
+    .km-tablet .km-android .homepagecallout
+    {
+    	float: left;
+    	padding: 40px 0 0 18%;
+    	font-size: 1em;
+        width:100%
+    }
+    
+    .km-tablet .km-android .homepagecallout p{
+        margin:15px 30px 10px 0;
+        float:left;
+        width:45%;
+        font-size:22px;
+        
+    }
+    
+    .km-tablet .km-ios .climbin{
+       width:85%;
+       float:right;
+       margin-top:10px
+    }
+    
+    .km-tablet .km-android .starimg
+    {
+    	padding: 0 0 0 30px;
+    	width: 30%;
+        margin-top:-80px
+    }
+    
+    .km-tablet .km-android .starimg img
+    {
+    	width: 35%;
+    }
+}
+
+
+
+
+
+.km-tablet .km-android .km-content  .headertext h1
+{
+	margin: 0;
+	padding: 20px 0 0 10px;
+	font-size: 2.6em;
+	font-weight: bold;
+}
