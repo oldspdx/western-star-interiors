@@ -90,6 +90,7 @@
     <Content Include="hiRoofMapleLeafRed.html" />
     <Content Include="hiRoofPacificForestGreen.html" />
     <Content Include="hiRoofSmokyMountainGray.html" />
+    <Content Include="js\main.js" />
     <Content Include="kendo\styles\images\back.png" />
     <Content Include="kendo\styles\images\kendoui.trial.2012.3.1315.zip" />
     <Content Include="kendo\styles\images\KendoUI.ttf" />
