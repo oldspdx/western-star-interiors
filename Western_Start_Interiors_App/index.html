@@ -8,7 +8,7 @@
 		<script src="kendo/js/kendo.mobile.min.js"></script>
 
 		<link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="kendo/styles/ws.css" />
+	
 		<link href="styles/main.css" rel="stylesheet" />     
 	</head>
 	<body>    
@@ -160,7 +160,7 @@
 
                             
         <script>
-            console.log("here in view-slide");
+         
 			var app = new kendo.mobile.Application(document.body, { transition: "slide", layout: "mobile-tabstrip" });
 		</script>
         <script>
@@ -168,7 +168,7 @@
             function initTouch(e) {
                 $(".touch-surface").kendoTouch({
                     tap: function(e) {
-                        console.log(e.touch.target + " was tapped");
+                 
                         window.location.assign(this.element.prop("id"));
                     }
                 });
@@ -176,7 +176,7 @@
         </script>
         <script>
           var app = new kendo.mobile.Application();
-      //    app.showLoading();
+
         </script>                    
 	</body>
 </html>
