@@ -52,6 +52,7 @@
     <Folder Include="kendo\js" />
     <Folder Include="kendo\styles" />
     <Folder Include="ee" />
+    <Folder Include="kendo\styles\images" />
     <Folder Include="styles" />
     <Folder Include="styles\images" />
   </ItemGroup>
@@ -89,6 +90,10 @@
     <Content Include="hiRoofMapleLeafRed.html" />
     <Content Include="hiRoofPacificForestGreen.html" />
     <Content Include="hiRoofSmokyMountainGray.html" />
+    <Content Include="kendo\styles\images\back.png" />
+    <Content Include="kendo\styles\images\kendoui.trial.2012.3.1315.zip" />
+    <Content Include="kendo\styles\images\KendoUI.ttf" />
+    <Content Include="kendo\styles\images\KendoUI.woff" />
     <Content Include="lowRoofBase.html" />
     <Content Include="lowRoofPacificForestGreen.html" />
     <Content Include="lowRoofBuckskin.html" />
