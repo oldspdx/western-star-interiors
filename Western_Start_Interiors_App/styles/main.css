@@ -185,6 +185,12 @@ h3
 	margin: 0;
 }
 
+/*title bar */
+
+.km-ios .km-view-title, .km-ios .km-dialog-title {
+    padding:0 0 0 40px
+}
+
 /* Scroll */
 
 
