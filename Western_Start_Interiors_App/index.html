@@ -6,7 +6,7 @@
 		<script src="cordova.js"></script>
 		<script src="kendo/js/jquery.min.js"></script>
 		<script src="kendo/js/kendo.mobile.min.js"></script>
-
+        <script src="js/main.js"></script>
 		<link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
 	
 		<link href="styles/main.css" rel="stylesheet" />     
@@ -47,20 +47,20 @@
 
     			<ul data-role="listview" data-style="inset" data-type="group">
     				<li>
-    				    <a href="#dayCab" data-role="button" class="cabtypeslink"><img src="images/btn_conf01_off.png"  class="largebtn"  ></a>	
+    				    <a href="#dayCab" data-role="button" class="notabstriplink"><img src="images/btn_conf01_off.png"  class="largebtn"  ></a>	
     				</li>
                     <li>
-    				    <a href="#sleeperLowRoof" data-role="button" class="cabtypeslink"><img src="images/btn_conf02_off.png" class="largebtn" /></a>			
+    				    <a href="#sleeperLowRoof" data-role="button" class="notabstriplink"><img src="images/btn_conf02_off.png" class="largebtn" /></a>			
     				</li>
                     <li>
-    				    <a href="#sleeperHighRoof" data-role="button" class="cabtypeslink"><img src="images/btn_conf03_off.png" class="largebtn" /></a>
+    				    <a href="#sleeperHighRoof" data-role="button" class="notabstriplink"><img src="images/btn_conf03_off.png" class="largebtn" /></a>
                     </li>
     			</ul>
             </div> 
             
         </div>
                             
-        <div data-role="view" id="dayCab" data-role="layout">
+        <div data-role="view" id="dayCab" data-role="layout" class="notabstrip">
             <div class="background">
                 <header data-role="header">
             		<div data-role="navbar">
@@ -92,7 +92,7 @@
             </div>
 		</div>
 
-        <div data-role="view" id="sleeperHighRoof" data-role="layout">
+        <div data-role="view" id="sleeperHighRoof" data-role="layout" class="notabstrip">
             <div class="background">
                 <header data-role="header">
             		<div data-role="navbar">
@@ -126,7 +126,7 @@
                             
 
                             
-         <div data-role="view" id="sleeperLowRoof" data-role="layout">
+         <div data-role="view" id="sleeperLowRoof" data-role="layout" class="notabstrip">
             <div class="background">
                 <header data-role="header">
             		<div data-role="navbar">

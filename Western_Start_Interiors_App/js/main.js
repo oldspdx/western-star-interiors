@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   $('.cabtypeslink').click(function(){
-     $('tabstrip').hide();
+   $('.notabstriplink').click(function(){
+     $('.tabstrip').hide();
    });
  });
