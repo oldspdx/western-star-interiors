@@ -269,7 +269,7 @@ h3
 
 .km-ios .km-content .scroller-container
 {
-	height: 320px !important;
+	height: 350px !important;
 	margin-top: 0px !important;
 	width: 100% !important;
 	margin: 0;
@@ -388,7 +388,7 @@ margin: 0 .3em;
 {
 	padding: 0px 0;
 	margin: 0;
-	font-size: 30px;
+	font-size: 28px;
 	color: #EFEFEF;
 	text-align: left;
     padding-left:15px;
