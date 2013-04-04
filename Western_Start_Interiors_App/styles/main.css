@@ -344,6 +344,9 @@ margin: 0 .3em;
    margin:0 0 -10px 0
 }
 
+
+
+
 .zoomimg   {
     margin:0 20px 0 0;
     float:right;
@@ -388,12 +391,31 @@ margin: 0 .3em;
 {
 	padding: 0px 0;
 	margin: 0;
-	font-size: 28px;
+	font-size: 26px;
 	color: #EFEFEF;
 	text-align: left;
     padding-left:15px;
     font-weight:bold;
 }
+
+ .km-ios .km-content .overview-gallery .photo H4
+{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    padding-left:15px;
+    
+}
+
+ .km-ios .km-content .overview-gallery .photo H3
+{
+   font-size: 16px;
+    margin-top:10px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    
+}
+
 
 .km-tablet .km-ios .km-content .overview-gallery .photo H3
 {
