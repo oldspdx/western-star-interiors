@@ -397,12 +397,19 @@ margin: 0 .3em;
 
 .km-tablet .km-ios .km-content .overview-gallery .photo H3
 {
-    font-size: 40px;
+    font-size: 22px;
+    margin-top:10px;
+    margin-bottom:0px;
+    padding-bottom:0px;
 }
 
 .km-tablet .km-ios .km-content .overview-gallery .photo H4
 {
-    font-size: 40px;
+    font-size: 34px;
+    margin: 0px;
+    padding: 0px;
+    padding-left:15px;
+    
 }
 
 #scrollview-container
