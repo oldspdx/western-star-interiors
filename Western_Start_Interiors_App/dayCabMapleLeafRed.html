@@ -568,7 +568,7 @@
 
 							<img src="images/gallery/seats/Seat_02_Mid_Leather_Black.jpg"  class="galleryimg" />
 							<p class="gallerytext">
-								Solid Ultraleather <br>-758-1AD/761-1AD
+								Solid Ultraleather <br>758-1AD/761-1AD
 							</p>
 							<p class="zoomimg">
 								<img src="images/zoom_in.png" data-align="left" class="touch-surface" alt="#cabview04_dcmlrview22" />
@@ -749,7 +749,7 @@
 							<h4>Gray</h4>
 
 							<img src="images/gallery/seats/Seat_03_Bench_Vinyl_Gray.jpg"  class="galleryimg" />
-							<p class="gallerytext">Vinyl</p>
+							<p class="gallerytext">Vinyl <br>758-1AA/761-1AA</p>
 							<p class="zoomimg">
 								<img src="images/zoom_in.png" data-align="left" class="touch-surface" alt="#cabview04_dcmlrview38" />
 							</p>
@@ -761,7 +761,7 @@
 							<h4>Black</h4>
 
 							<img src="images/gallery/seats/Seat_03_Bench_Vinyl_Black.jpg"  class="galleryimg" />
-							<p class="gallerytext">Vinyl</p>
+							<p class="gallerytext">Vinyl <br>758-1AK/761-1AK</p>
 							<p class="zoomimg">
 								<img src="images/zoom_in.png" data-align="left" class="touch-surface" alt="#cabview04_dcmlrview37" />
 							</p>
@@ -1118,6 +1118,7 @@
         
         <script>
             function initTouch(e) {
+                console.log(" in init");
                     $(".touch-surface").on("touchstart",false);
                     $(".touch-surface").kendoTouch({
                           tap: function(e) {
