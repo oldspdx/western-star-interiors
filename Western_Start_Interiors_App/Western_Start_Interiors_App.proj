@@ -81,7 +81,6 @@
     <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cab01clr01view01.html" />
     <Content Include="images\buttonsColor\btn_dayCab_Base_off.png" />
     <Content Include="images\gallery\sleeperLow\Cab_LR_SmokyMountainGray_Dash_03.jpg" />
     <Content Include="images\homepageimg_landscape.jpg" />
@@ -162,7 +161,6 @@
     <Content Include="dayCabBuckskin.html" />
     <Content Include="dayCabPacificForestGreen.html" />
     <Content Include="dayCabSmokyMountainGray.html" />
-    <Content Include="HtmlPage.html" />
     <Content Include="images\01_DayCab\Cab_Day_Base_3q_01.jpg" />
     <Content Include="images\01_DayCab\Cab_Day_Base_3q_02.jpg" />
     <Content Include="images\01_DayCab\Cab_Day_Base_3q_03.jpg" />
@@ -398,7 +396,6 @@
     <Content Include="kendo\js\jquery.min.js" />
     <Content Include="kendo\js\kendo.mobile.min.js" />
     <Content Include="kendo\styles\kendo.mobile.all.min.css" />
-    <Content Include="old.html" />
     <Content Include="styles\Copy of main.css" />
     <Content Include="styles\images\icons-18.png" />
     <Content Include="styles\images\icons-36.png" />
@@ -408,7 +405,6 @@
     <Content Include="styles\phone-480.css" />
     <Content Include="styles\phone-800.css" />
     <Content Include="styles\tablet-1024-ldpi.css" />
-    <Content Include="tester.html" />
   </ItemGroup>
   <ItemGroup>
     <CordovaPlugin Include="com.phonegap.plugins.childbrowser">

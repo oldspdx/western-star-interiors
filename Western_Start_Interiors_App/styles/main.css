@@ -353,7 +353,8 @@ margin: 0 .3em;
 }
 
 .gallerytext    {
-   margin:0 0 -10px 0
+   margin:0 0 -10px 0;
+    text-decoration:none !important;
 }
 
 
