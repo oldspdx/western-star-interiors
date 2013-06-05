@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    console.log( ($(this).attr('id')));
+    console.log( "strip");
    $('.notabstriplink').click(function(){
      $('.tabstrip').hide();
    });

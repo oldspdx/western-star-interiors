@@ -96,7 +96,6 @@
     <Content Include="kendo\styles\images\kendoui.trial.2012.3.1315.zip" />
     <Content Include="kendo\styles\images\KendoUI.ttf" />
     <Content Include="kendo\styles\images\KendoUI.woff" />
-    <Content Include="lowRoofBase.html" />
     <Content Include="lowRoofPacificForestGreen.html" />
     <Content Include="lowRoofBuckskin.html" />
     <Content Include="lowRoofMapleLeafRed.html" />

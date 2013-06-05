@@ -1,182 +1,219 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html>
 	<head>
-		<title></title> 
+		<title></title>
 		<meta charset="utf-8" />
 		<script src="cordova.js"></script>
 		<script src="kendo/js/jquery.min.js"></script>
 		<script src="kendo/js/kendo.mobile.min.js"></script>
-        <script src="js/main.js"></script>
+		<script src="js/main.js"></script>
 		<link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
-	
-		<link href="styles/main.css" rel="stylesheet" />         
-	</head>
-	<body>    
-           
-        <div data-role="view" id="home" data-role="layout" data-init="initTouch" data-layout="default">
-    			<div class="header">
-    					<div class="headerimg"><img src="images/wslogo.png" /></div>
-    					<div class="headertext"><h1>Western Star Trucks Interior Options</h1></div>
-    			</div>
-                <div class="homepageimg">  
-        			<!-- <img src="images/homepageimg.jpg" /> -->   
-        		</div>
-        		<div class="homepagecallout">
-        			<p>A useful guide to showing you how your new interior will look.</p>
-                    <p class="climbin">
-        			<a href="#cabtypes" data-role="button" ><img src="images/btn_climbin.png" alt="Climb In" ></a>
-                    </p>
-        		</div>
-        		<div class="floatleft starimg">
-        			<img src="images/Serious_trucks_group.png" />
-        		</div>
 
-        </div>          
+		<link href="styles/main.css" rel="stylesheet" />
+	</head>
+	<body>
+
+		<div data-role="view" id="home" data-role="layout" data-init="initTouch" data-layout="default">
+			<div class="header">
+				<div class="headerimg">
+					<img src="images/wslogo.png" />
+				</div>
+				<div class="headertext">
+					<h1>Western Star Trucks Interior Options</h1>
+				</div>
+			</div>
+			<div class="homepageimg">
+				<!-- <img src="images/homepageimg.jpg" /> -->
+			</div>
+			<div class="homepagecallout">
+				<p>A useful guide to showing you how your new interior will look.</p>
+				<p class="climbin">
+					<a href="#cabtypes" data-role="button" >
+						<img src="images/btn_climbin.png" alt="Climb In" >
+					</a>
+				</p>
+			</div>
+			<div class="floatleft starimg">
+				<img src="images/Serious_trucks_group.png" />
+			</div>
+
+		</div>
 
 		<div data-role="view" id="cabtypes" data-role="layout">
-            <div class="background">   
-            	<header data-role="header">
-            		<div data-role="navbar">
-                        <a id="cabtype01" data-role="button" href="#home" data-align="left">Back</a>
-                        <span data-role="view-title">Cab Types</span>
-            		</div>
-            	</header>
-                
-    			<h1>Cab Configurations:</h1>
-    			<h2>Choose one of these configurations</h2>
+			<div class="background">
+				<header data-role="header">
+					<div data-role="navbar">
+						<a id="cabtype01" data-role="button" href="#home" data-align="left">Back</a>
+						<span data-role="view-title">Cab Types</span>
+					</div>
+				</header>
 
-    			<ul data-role="listview" data-style="inset" data-type="group">
-    				<li>
-    				    <a href="#dayCab" data-role="button" class="notabstriplink"><img src="images/btn_conf01_off.png"  class="largebtn"  ></a>	
-    				</li>
-                    <li>
-    				    <a href="#sleeperLowRoof" data-role="button" class="notabstriplink"><img src="images/btn_conf02_off.png" class="largebtn" /></a>			
-    				</li>
-                    <li>
-    				    <a href="#sleeperHighRoof" data-role="button" class="notabstriplink"><img src="images/btn_conf03_off.png" class="largebtn" /></a>
-                    </li>
-    			</ul>
-            </div> 
-            
-        </div>
-                            
-        <div data-role="view" id="dayCab" data-role="layout" class="notabstrip">
-            <div class="background">
-                <header data-role="header">
-            		<div data-role="navbar">
-                        <a id="cabtype01" data-role="button" href="#cabtypes" data-align="left">Back</a>
-                        <span data-role="view-title">Day Cab</span>
-            		</div>
-            	</header>
-      
-    			<h1>Interior Colors</h1>
-    			<h2>Please choose a color for your DAY CAB</h2>
-    
-    			<ul data-role="listview" data-style="inset" data-type="group">
-    				<li>
-    					<a href="dayCabSmokyMountainGray.html" data-role="button"  ><img src="images/buttonsColor/btn_dayCab_SmokeyMountainGray_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="dayCabMapleLeafRed.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_dayCab_MapleLeafRed_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="dayCabPacificForestGreen.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_dayCab_PacificForestGreen_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="dayCabBuckskin.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_dayCab_Buckskin_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="dayCabBase.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_dayCab_Base_off.png" class="largebtn" /></a>
-                    </li>
-    			</ul>
-            </div>
+				<h1>Cab Configurations:</h1>
+				<h2>Choose one of these configurations</h2>
+
+				<ul data-role="listview" data-style="inset" data-type="group">
+					<li>
+						<a href="#dayCab" data-role="button" class="notabstriplink">
+							<img src="images/btn_conf01_off.png"  class="largebtn"  >
+						</a>
+					</li>
+					<li>
+						<a href="#sleeperLowRoof" data-role="button" class="notabstriplink">
+							<img src="images/btn_conf02_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="#sleeperHighRoof" data-role="button" class="notabstriplink">
+							<img src="images/btn_conf03_off.png" class="largebtn" />
+						</a>
+					</li>
+				</ul>
+			</div>
+
 		</div>
 
-        <div data-role="view" id="sleeperHighRoof" data-role="layout" class="notabstrip">
-            <div class="background">
-                <header data-role="header">
-            		<div data-role="navbar">
-                        <a id="cabtype03" data-role="button" href="#cabtypes" data-align="left">Back</a>
-                        <span data-role="view-title">Sleeper Cab - High Roof</span>
-            		</div>
-            	</header>
-      
-    			<h1>Interior Colors</h1>
-    			<h2>Please choose a color for your HIGH ROOF SLEEPER</h2>
-    
-    			<ul data-role="listview" data-style="inset" data-type="group">
-    				<li>
-    					<a href="hiRoofSmokyMountainGray.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperHigh_SmokyMountainGray_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="hiRoofMapleLeafRed.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperHigh_MapleLeafRed_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="hiRoofPacificForestGreen.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperHigh_PacificForestGreen_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="hiRoofBuckskin.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperHigh_Buckskin_off.png" class="largebtn" /></a>
-                    </li>
+		<div data-role="view" id="dayCab" data-role="layout" class="notabstrip">
+			<div class="background">
+				<header data-role="header">
+					<div data-role="navbar">
+						<a id="cabtype01" data-role="button" href="#cabtypes" data-align="left">Back</a>
+						<span data-role="view-title">Day Cab</span>
+					</div>
+				</header>
 
-                    
+				<h1>Interior Colors</h1>
+				<h2>Please choose a color for your DAY CAB</h2>
 
-    			</ul>
-            </div>
-		</div>
-                            
-
-                            
-         <div data-role="view" id="sleeperLowRoof" data-role="layout" class="notabstrip">
-            <div class="background">
-                <header data-role="header">
-            		<div data-role="navbar">
-                        <a id="cabtype02" data-role="button" href="#cabtypes" data-align="left">Back</a>
-                        <span data-role="view-title">Sleeper Cab - Low Roof</span>
-            		</div>
-            	</header>
-      
-    			<h1>Interior Colors</h1>
-    			<h2>Please choose a color for your LOW ROOF SLEEPER</h2>
-    
-    			<ul data-role="listview" data-style="inset" data-type="group">
-    				<li>
-    					<a href="lowRoofSmokyMountainGray.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperLow_SmokyMountainGray_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="lowRoofMapleLeafRed.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperLow_MapleLeafRead_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="lowRoofPacificForestGreen.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperLow_PacificForestGreen_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="lowRoofBuckskin.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperLow_Buckskin_off.png" class="largebtn" /></a>
-                    </li>
-                    <li>
-    					<a href="lowRoofBase.html" data-role="button"  rel="external"><img src="images/buttonsColor/btn_sleeperLow_Base_off.png" class="largebtn" /></a>
-                    </li>
-    			</ul>
-            </div>
+				<ul data-role="listview" data-style="inset" data-type="group">
+					<li>
+						<a href="dayCabSmokyMountainGray.html" data-role="button"  >
+							<img src="images/buttonsColor/btn_dayCab_SmokeyMountainGray_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="dayCabMapleLeafRed.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_dayCab_MapleLeafRed_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="dayCabPacificForestGreen.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_dayCab_PacificForestGreen_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="dayCabBuckskin.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_dayCab_Buckskin_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="dayCabBase.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_dayCab_Base_off.png" class="largebtn" />
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 
-                            
-        <script>
+		<div data-role="view" id="sleeperHighRoof" data-role="layout" class="notabstrip">
+			<div class="background">
+				<header data-role="header">
+					<div data-role="navbar">
+						<a id="cabtype03" data-role="button" href="#cabtypes" data-align="left">Back</a>
+						<span data-role="view-title">Sleeper Cab - High Roof</span>
+					</div>
+				</header>
+
+				<h1>Interior Colors</h1>
+				<h2>Please choose a color for your HIGH ROOF SLEEPER</h2>
+
+				<ul data-role="listview" data-style="inset" data-type="group">
+					<li>
+						<a href="hiRoofSmokyMountainGray.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperHigh_SmokyMountainGray_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="hiRoofMapleLeafRed.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperHigh_MapleLeafRed_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="hiRoofPacificForestGreen.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperHigh_PacificForestGreen_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="hiRoofBuckskin.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperHigh_Buckskin_off.png" class="largebtn" />
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div data-role="view" id="sleeperLowRoof" data-role="layout" class="notabstrip">
+			<div class="background">
+				<header data-role="header">
+					<div data-role="navbar">
+						<a id="cabtype02" data-role="button" href="#cabtypes" data-align="left">Back</a>
+						<span data-role="view-title">Sleeper Cab - Low Roof</span>
+					</div>
+				</header>
+
+				<h1>Interior Colors</h1>
+				<h2>Please choose a color for your LOW ROOF SLEEPER</h2>
+
+				<ul data-role="listview" data-style="inset" data-type="group">
+					<li>
+						<a href="lowRoofSmokyMountainGray.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperLow_SmokyMountainGray_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="lowRoofMapleLeafRed.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperLow_MapleLeafRead_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="lowRoofPacificForestGreen.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperLow_PacificForestGreen_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="lowRoofBuckskin.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperLow_Buckskin_off.png" class="largebtn" />
+						</a>
+					</li>
+					<li>
+						<a href="lowRoofBase.html" data-role="button"  rel="external">
+							<img src="images/buttonsColor/btn_sleeperLow_Base_off.png" class="largebtn" />
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<script>
          
 			var app = new kendo.mobile.Application(document.body, { transition: "slide", layout: "mobile-tabstrip" });
 		</script>
-        <script>
-      //      var app = new kendo.mobile.Application();
-            function initTouch(e) {
-                $(".touch-surface").kendoTouch({
-                    tap: function(e) {
-                 
-                        window.location.assign(this.element.prop("id"));
-                    }
-                });
-            }
-        </script>
-        <script>
-          var app = new kendo.mobile.Application();
-
-        </script>                    
+		<script>
+			//      var app = new kendo.mobile.Application();
+			function initTouch(e) {
+				$(".touch-surface").kendoTouch({
+                    
+					tap: function(e) {
+						window.location.assign(this.element.prop("id"));
+                        console.log ("in here");
+					}
+				});
+			}
+		</script>
+		<script>
+			var app = new kendo.mobile.Application();
+			
+		</script>
 	</body>
 </html>
